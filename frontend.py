@@ -7,6 +7,7 @@ detectface=cv2.CascadeClassifier("face.xml")
 st.title("Face Detection System")
 if(choice=="HOME"):
     st.header("welcome")
+    st.image("https://tenor.com/view/face-recognition-gif-19358861.gif")
 elif(choice=="IMAGE"):
     img=st.file_uploader("please upload your image")
     if img:
