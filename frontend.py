@@ -7,7 +7,7 @@ detectface=cv2.CascadeClassifier("face.xml")
 st.title("Face Detection System")
 if(choice=="HOME"):
     st.header("welcome")
-    st.image("https://analyticsindiamag.com/top-7-resources-to-learn-facial-recognition/")
+    st.image("icon1.gif")
 elif(choice=="IMAGE"):
     img=st.file_uploader("please upload your image")
     if img:
